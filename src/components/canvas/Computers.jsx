@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 const Computers = () => {
   return (
-    <div>Shrestha Nischal</div>
+    <div>Under Development</div>
   )
 }
 
