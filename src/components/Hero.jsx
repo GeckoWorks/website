@@ -19,8 +19,8 @@ const Hero = () => {
             Hi, Welcome to Our New Website !! <span className='text-[#915EFF]'>Gecko Works</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            COMMING SOON !! <br className='sm:block hidden' />
-            Stay Updated
+             EMPOWERING BRANDS <br className='sm:block hidden' />
+            COMMING SOON !!
           </p>
         </div>
       </div>
