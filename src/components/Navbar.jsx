@@ -42,10 +42,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w- h-8 object-contain' />
-          <p className="text-white text-[20px] font-bold cursor-pointer ">Gecko Works
+          {/* <img src={logo} alt='logo' className='w-10vw h-8  bg-black' /> */}
+          <div className='flex items-center gap-4'>
+  <img src={logo} alt='logo' className='w-[120px] h-auto' />
+</div>
+
+          {/* <p className="text-white text-[20px] font-bold cursor-pointer ">Gecko Works
             <span className='sm:block hidden text-[12px]'>  Empowering Brand</span>
-          </p>
+          </p> */}
 
         </Link>
 
@@ -54,7 +58,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
+                active === nav.title ? "text-black" : "text-black"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -67,7 +71,7 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            className='w-[28px] h-[28px] object-contain text-black '
             onClick={() => setToggle(!toggle)}
           />
 
