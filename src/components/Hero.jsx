@@ -5,7 +5,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto bg-[#FFFDD0]`}>
+    <section className={`relative w-full h-screen mx-auto bg-[#fdfcf2]`}>
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-[#000000]`}>
-            Hi, Welcome to Our New Website !! <span className='text-[#519b8b]'>Gecko Works</span>
+            Hi, Welcome to Our New Website !! <span className='text-[#4a9672]'>Gecko Works</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-black-150`}>
              EMPOWERING BRANDS <br className='sm:block hidden' />

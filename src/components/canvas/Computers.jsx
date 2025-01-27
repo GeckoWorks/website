@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 const Computers = () => {
   return (
-    <div>Under Development</div>
+    <div className="text-black">Under Development</div>
   )
 }
 
